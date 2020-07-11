@@ -1,0 +1,41 @@
+body{
+    background-image: url(image/background\ pic.jpg);
+    height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+    max-width: 360px;
+    min-height: 500px;
+    opacity: 0.9;
+    border: 2px solid none;
+    margin: 10% auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+#min , #sec , #msec{
+    display: inline-block;
+    margin: 15px;
+    justify-content: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px gray;
+    font-size: 20px;
+}
+.btn{
+    background-color: gray;
+    border-radius: 60%;
+    color: white;
+    width: 90px;
+    height: 40px;
+    padding: 8px; 
+    box-shadow: 5px 7px blue;
+   margin: 10px;
+}
+.btn:hover{
+    background-color:#C4C5C7 ;
+    color: black;
+
+}
